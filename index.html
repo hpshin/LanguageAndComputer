@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta content="IE=11.0000" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <title>Computational Linguistics</title>
+    <meta name="author" content="Hyopil Shin">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+    <link href="index_files/bootstrap.css" rel="stylesheet">
+    <link href="index_files/bootstrap-responsive.css" rel="stylesheet">
+    <link href="index_files/mass60.css" rel="stylesheet">
+    <meta name="GENERATOR" content="MSHTML 11.00.10570.1001">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body style="padding-top: 30px;">
+    <p><font face="Trebuchet MS"><!--
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Project name</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    --> </font></p>
+    <div class="container"> <font face="Trebuchet MS"><!-- Main hero unit for a primary marketing message or call to action -->
+      </font>
+      <div class="hero-unit">
+        <h2><font face="Trebuchet MS">108.413A: Computational
+            Linguistics</font></h2>
+        <p><font face="Trebuchet MS" size="3">Hyopil Shin (Dept. of
+            Linguistics, Seoul National University)</font><font size="3"></font></p>
+        <p><a href="mailto:hpshin@snu.ac.kr"><font face="Trebuchet MS"
+              size="3">hpshin@snu.ac.kr</font></a><font face="Trebuchet
+            MS" size="3">, </font><a href="http://knlp.snu.ac.kr"><font
+              face="Trebuchet MS" size="3">http://knlp.snu.ac.kr</font></a><font
+            face="Trebuchet MS" size="3"><br>
+            Mon/Wed &nbsp;from 2:00 to 3:15 in building 8, 303</font><font
+            size="3"></font></p>
+        <p><font face="Trebuchet MS" size="3">T.A: SangA
+            Lee(visualjan@snu.ac.kr)</font></p>
+        <p><font face="Trebuchet MS"><img src="deep_blue_0.png"
+              width="301" border="0" height="226"><img src="ibm_0.png"
+              width="300" border="0" height="226"><img
+              src="alphago_0.png" width="294" border="0" height="240"> </font></p>
+        <p><font face="Trebuchet MS">(http://www.theverge.com/2016/3/11/11208078/lee-se-dol-go-google-kasparov-jennings-ai)</font><font
+            face="Trebuchet MS" size="3"> </font></p>
+        <p><br>
+        </p>
+      </div>
+      <div class="row">
+        <div class="span7">
+          <h2><font face="Trebuchet MS">Course Description</font></h2>
+          <p><font face="Trebuchet MS" size="3">Recently deep learning
+              &nbsp;approaches have obtained very high performance
+              across many different computational linguistics or
+              Naltural Language Processing (NLP). This course provides
+              an introduction to the Neural Network Model from scratch
+              and &nbsp;deep learning methodologies appled to NLP. On
+              the model side we will cover word vector representations,
+              recurrent neural networks, long-shot-term-memory models
+              recursive neural networks, and convolutional neural
+              networks. The first half part of the class focuses on the
+              basics of neural network models and the second part covers
+              actual implementations of NLP tasks such as sentiment
+              analysis(movie/text classifications), and text
+              generations. We will take advantage of modules from keras
+              and python 3.x. Through lectures and programming
+              assignments students will learn the necessary
+              implementation tricks for making neural networks work on
+              practical problems.&nbsp;&nbsp;</font><font
+              face="Trebuchet MS"></font></p>
+          <h2><font face="Trebuchet MS">Updates</font></h2>
+          <ul>
+            <li><a
+                href="https://github.com/WegraLee/deep-learning-from-scratch"><font
+                  face="Trebuchet MS" size="3">Deep Learning From
+                  Scratch source codes</font></a><font face="Trebuchet
+                MS" size="3"> has been added(March 23)</font></li>
+          </ul>
+          <h2><font face="Trebuchet MS">Useful Sites</font></h2>
+          <ul>
+            <li><font face="Trebuchet MS" size="3"><a
+                  href="http://www.nltk.org/book/">Natural Language
+                  Processing with Python</a></font></li>
+            <li><a href="https://hunkim.github.io/ml/"><font size="3">모두
+                  를 위한 머신러닝/딥러닝(홍콩과기대 김성훈 교수)</font></a><font size="3"></font></li>
+            <li><a href="http://cs231n.stanford.edu/"><font
+                  face="Trebuchet MS" size="3">CS231n: Convolutional
+                  Neural Networks for Visual Recognition</font></a><font
+                face="Trebuchet MS" size="3"> (Stanford Class)</font><font
+                size="3"></font></li>
+            <li><a href="http://cs224d.stanford.edu/"><font
+                  face="Trebuchet MS" size="3">CS224d: Deep Learning for
+                  Natural Language Processing </font></a><font
+                face="Trebuchet MS" size="3">(Stanford Class)</font><font
+                size="3"></font></li>
+            <li><a href="http://www.wildml.com/"><font face="Trebuchet
+                  MS" size="3">WILDML: AI, DEEP LEARNING, NLP</font></a><font
+                face="Trebuchet MS" size="3"> </font></li>
+            <li><font face="Trebuchet MS" size="3"><a
+                  href="https://tykimos.github.io/lecture/">김태영의 keras
+                  강좌</a></font></li>
+            <li><a
+                href="https://github.com/WegraLee/deep-learning-from-scratch"><font
+                  face="Trebuchet MS" size="3">Deep Learning From
+                  Scratch source codes</font></a></li>
+          </ul>
+        </div>
+        <div class="span4 offset1">
+          <h2><font face="Trebuchet MS">Textbook</font></h2>
+          <p><font face="Trebuchet MS"><img
+                src="deepLearningScratch.jpg" width="155" border="0"
+                height="225"></font></p>
+          <p><font face="Trebuchet MS">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+          <p><font face="Trebuchet MS" size="3">Deep Learning from
+              Scratch (밑바닥부터 시작하는&nbsp;딥러닝), by 사이토 고키, 한빛출판사. </font><a
+href="https://github.com/WegraLee/deep-learning-from-scratch"><font
+                face="Trebuchet MS" size="3">Deep Learning From Scratch
+                source codes</font></a></p>
+          <p>&nbsp;</p>
+          <p><img
+              src="Deep-Learning-for-Natural-Language-Processing-400.png"
+              width="173" border="0" height="247"></p>
+          <p><font face="Trebuchet MS" size="3"><a
+                href="https://machinelearningmastery.com/deep-learning-for-nlp/">Deep
+
+
+                Learning for Natural Language Processing</a>, by Jason
+              Brownlee.</font></p>
+        </div>
+      </div>
+      <div class="row" id="syllabus">
+        <div class="span12">
+          <h2><font face="Trebuchet MS">Syllabus</font></h2>
+          <table class="table table-striped" id="tblMain"
+            cellspacing="0" cellpadding="0" width="1006" border="0"
+            height="2941">
+            <tbody>
+              <tr>
+                <td class="s0" width="17" height="23"><font
+                    face="Trebuchet MS"></font><br>
+                </td>
+                <td class="s1" width="72" height="23"><font
+                    face="Trebuchet MS" size="4">Date</font></td>
+                <td class="s1" width="289" height="23"><font
+                    face="Trebuchet MS" size="4">Topics</font></td>
+                <td class="s1" width="248" height="23"><font
+                    face="Trebuchet MS" size="4">What you have to do</font></td>
+                <td class="s1" width="380" height="23"><font
+                    face="Trebuchet MS" size="4">Assignment</font></td>
+              </tr>
+              <tr>
+                <td class="s2" width="17" height="233"><font
+                    face="Trebuchet MS" size="3">1</font></td>
+                <td class="s3" width="72" height="233"><font
+                    face="Trebuchet MS" size="3">3/5-3/10</font></td>
+                <td class="s4" width="289" height="233">
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;">&nbsp;<font face="Trebuchet MS"></font></p>
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><a href="intro.pdf"><font
+                        face="Trebuchet MS" size="3">What is NaturaI
+                        Language Processing</font></a><font
+                      face="Trebuchet MS" size="3"> (Jurafsky's NLP
+                      Online Course Material)</font><font
+                      face="Trebuchet MS"></font></p>
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><font face="Trebuchet MS" size="3">Preliminaries
+
+
+                      for NLP </font></p>
+                  <ul>
+                    <li><font face="Trebuchet MS" size="3"><a
+                          href="lecture/slp04.pdf">Ngram</a></font></li>
+                    <li style="background-color: transparent; color:
+                      rgb(0, 0, 0); font-family: Times New Roman;
+                      font-size: 16px; font-style: normal; font-variant:
+                      normal; font-weight: 400; letter-spacing: normal;
+                      line-height: 16px; margin-bottom: 0px; margin-top:
+                      0px; orphans: 2; text-align: left;
+                      text-decoration: none; text-indent: 0px;
+                      text-transform: none; -webkit-text-stroke-width:
+                      0px; white-space: normal; word-spacing: 0px;"><a
+                        href="lecture/hpshin-statistics-EntropyAddition.pdf"><font
+                          face="Trebuchet MS" size="3">Information
+                          Theory</font></a><font size="3"></font></li>
+                    <li style="background-color: transparent; color:
+                      rgb(0, 0, 0); font-family: Times New Roman;
+                      font-size: 16px; font-style: normal; font-variant:
+                      normal; font-weight: 400; letter-spacing: normal;
+                      line-height: 16px; margin-bottom: 0px; margin-top:
+                      0px; orphans: 2; text-align: left;
+                      text-decoration: none; text-indent: 0px;
+                      text-transform: none; -webkit-text-stroke-width:
+                      0px; white-space: normal; word-spacing: 0px;"><a
+                        href="lecture/entropyExtracted.pdf"><font
+                          face="Trebuchet MS" size="3">Entropy</font></a><font
+                        face="Trebuchet MS" size="3"><span
+                          style="font-family:'Times New Roman';
+                          font-style:normal; font-variant:normal;
+                          font-weight:400; color:black;
+                          word-spacing:0px; letter-spacing:normal;
+                          text-transform:none; text-align:left;
+                          text-indent:0px; line-height:16px;
+                          text-decoration:none;"> from Speech and
+                          Natural Language Processing</span></font><font
+                        size="3"></font></li>
+                    <li style="background-color: transparent; color:
+                      rgb(0, 0, 0); font-family: Times New Roman;
+                      font-size: 16px; font-style: normal; font-variant:
+                      normal; font-weight: 400; letter-spacing: normal;
+                      line-height: 16px; margin-bottom: 0px; margin-top:
+                      0px; orphans: 2; text-align: left;
+                      text-decoration: none; text-indent: 0px;
+                      text-transform: none; -webkit-text-stroke-width:
+                      0px; white-space: normal; word-spacing: 0px;"><font
+                        face="Trebuchet MS" size="3"><span
+                          style="font-family:'Times New Roman';
+                          font-style:normal; font-variant:normal;
+                          font-weight:400; color:black;
+                          word-spacing:0px; letter-spacing:normal;
+                          text-transform:none; text-align:left;
+                          text-indent:0px; line-height:16px;
+                          text-decoration:none;"><a
+                            href="lecture/entropy.pdf">Entropy</a></span></font></li>
+                    <li><a href="lecture/LinearRegression.pdf"
+                        style="background-color: transparent; color:
+                        rgb(0, 102, 204); font-family: Trebuchet MS;
+                        font-size: 16px; font-style: normal;
+                        font-variant: normal; font-weight: 400;
+                        letter-spacing: normal; orphans: 2; text-align:
+                        left; text-decoration: underline; text-indent:
+                        0px; text-transform: none;
+                        -webkit-text-stroke-width: 0px; white-space:
+                        normal; word-spacing: 0px;"><font size="3">Linear
+                          Regression and Logistic Regression<br>
+                        </font> </a></li>
+                  </ul>
+                </td>
+                <td class="s4" width="248" height="233">
+                  <p><font face="Trebuchet MS" size="3">Install Python
+                      3.x&nbsp;and &nbsp;<a
+                        href="https://tykimos.github.io/lecture/">keras</a>,
+                      <a href="http://www.nltk.org/">and NLTK(Natural
+                        Language ToolKit)</a></font></p>
+                  <p><font face="Trebuchet MS" size="3"></font><a
+                      href="InstallationGuideforWindowUsers.pdf"><font
+                        face="Trebuchet MS" size="3">Installation guide
+                        for Window users</font></a></p>
+                </td>
+                <td class="s4" width="380" height="233"> &nbsp; </td>
+              </tr>
+              <tr>
+                <td class="s2" width="17" height="145"><font
+                    face="Trebuchet MS" size="3">2</font></td>
+                <td class="s3" width="72" height="145"><font
+                    face="Trebuchet MS" size="3">3/12-3/17</font></td>
+                <td class="s4" width="289" height="145">
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><font face="Trebuchet MS" size="3">Preliminaries
+                      for NLP </font><font size="3"></font></p>
+                  <ul>
+                    <li><a href="lecture/slp04.pdf"><font
+                          face="Trebuchet MS" size="3">N-gram</font></a><font
+                        size="3"></font></li>
+                    <li style="background-color: transparent; color:
+                      rgb(0, 0, 0); font-family: Times New Roman;
+                      font-size: 16px; font-style: normal; font-variant:
+                      normal; font-weight: 400; letter-spacing: normal;
+                      line-height: 16px; margin-bottom: 0px; margin-top:
+                      0px; orphans: 2; text-align: left;
+                      text-decoration: none; text-indent: 0px;
+                      text-transform: none; -webkit-text-stroke-width:
+                      0px; white-space: normal; word-spacing: 0px;"><a
+                        href="lecture/hpshin-statistics-EntropyAddition.pdf"><font
+                          face="Trebuchet MS" size="3">Information
+                          Theory</font></a><font size="3"></font></li>
+                    <li style="background-color: transparent; color:
+                      rgb(0, 0, 0); font-family: Times New Roman;
+                      font-size: 16px; font-style: normal; font-variant:
+                      normal; font-weight: 400; letter-spacing: normal;
+                      line-height: 16px; margin-bottom: 0px; margin-top:
+                      0px; orphans: 2; text-align: left;
+                      text-decoration: none; text-indent: 0px;
+                      text-transform: none; -webkit-text-stroke-width:
+                      0px; white-space: normal; word-spacing: 0px;"><a
+                        href="lecture/entropyExtracted.pdf"><font
+                          face="Trebuchet MS" size="3">Entropy</font></a><font
+                        face="Trebuchet MS" size="3"><span
+                          style="font-family:'Times New Roman';
+                          font-style:normal; font-variant:normal;
+                          font-weight:400; color:black;
+                          word-spacing:0px; letter-spacing:normal;
+                          text-transform:none; text-align:left;
+                          text-indent:0px; line-height:16px;
+                          text-decoration:none;"> from Speech and
+                          Natural Language Processing</span></font><font
+                        size="3"></font></li>
+                    <li style="background-color: transparent; color:
+                      rgb(0, 0, 0); font-family: Times New Roman;
+                      font-size: 16px; font-style: normal; font-variant:
+                      normal; font-weight: 400; letter-spacing: normal;
+                      line-height: 16px; margin-bottom: 0px; margin-top:
+                      0px; orphans: 2; text-align: left;
+                      text-decoration: none; text-indent: 0px;
+                      text-transform: none; -webkit-text-stroke-width:
+                      0px; white-space: normal; word-spacing: 0px;"><font
+                        face="Trebuchet MS" size="3"><span
+                          style="font-family:'Times New Roman';
+                          font-style:normal; font-variant:normal;
+                          font-weight:400; color:black;
+                          word-spacing:0px; letter-spacing:normal;
+                          text-transform:none; text-align:left;
+                          text-indent:0px; line-height:16px;
+                          text-decoration:none;"><a
+                            href="lecture/entropy.pdf">Entropy</a></span></font></li>
+                    <li><a href="lecture/LinearRegression.pdf"
+                        style="background-color: transparent; color:
+                        rgb(0, 102, 204); font-family: Trebuchet MS;
+                        font-size: 16px; font-style: normal;
+                        font-variant: normal; font-weight: 400;
+                        letter-spacing: normal; orphans: 2; text-align:
+                        left; text-decoration: underline; text-indent:
+                        0px; text-transform: none;
+                        -webkit-text-stroke-width: 0px; white-space:
+                        normal; word-spacing: 0px;"><font size="3">Linear
+                          Regression and Logistic regression</font></a><span
+                        style="font-size:13pt;"></span></li>
+                  </ul>
+                </td>
+                <td class="s4" width="248" height="145">
+                  <p><a
+href="https://machinelearningmastery.com/implement-simple-linear-regression-scratch-python/"><font
+                        face="Trebuchet MS" size="3">How to Implement
+                        Simple Linear Regression From Scratch with
+                        Python</font></a><font size="3"></font></p>
+                  <p><a
+href="https://machinelearningmastery.com/logistic-regression-for-machine-learning/"><font
+                        face="Trebuchet MS" size="3">Logistic Regression
+                        for Machine Learning</font></a><font
+                      face="Trebuchet MS" size="3"> </font></p>
+                  <p><font face="Trebuchet MS" size="3"><a
+                        href="entropySchannon.py">Schannon Entropy
+                        Test-like sample code</a></font></p>
+                </td>
+                <td class="s4" width="380" height="145">
+                  <p><font face="Trebuchet MS" size="3" color="red">Assignment
+                      1</font><font face="Trebuchet MS" size="3">: Brwon
+                      Corpus 중에서 일부를 발췌한 <a href="BROWN_A1.txt">BROWN_A1</a>
+                      코퍼스를 이용하여 &nbsp;</font><font face="Trebuchet MS"
+                      size="3">이용하여 'I think I will get the best score
+                      in the class&quot; 라는 문장의 확률을 출력하는 프로그램을 작성하라.</font><font
+                      size="3"></font></p>
+                  <h3 align="center"><font face="Trebuchet MS" size="3">(1)
+                      바이그램의 MLE를 이용한 확률과 바이그램 확률(전체 바이그램 중에 특정 바이그램 수에
+                      따른) 각각에 따른 위 문장의 확률을 출력</font><font size="3"></font></h3>
+                  <h3 align="center"><font face="Trebuchet MS" size="3">(2)
+                      &quot;, ' 등 모든 기호를 &nbsp;tokenize할 때 제거할 수 있으면 제거하라 </font></h3>
+                  <h3 align="center"><font face="Trebuchet MS" size="3">(3)
+                    </font><a href="wordCount1.py"><font face="Trebuchet
+                        MS" size="3">WordCounting and Printing Python
+                        Sample (python2), &nbsp;</font></a><font
+                      face="Trebuchet MS" size="3">이 &nbsp;<a
+                        href="wordCountingPy3.py">WordCountying and
+                        Printing Python Sample (python3)</a> 용할 수도 있고
+                      nltk의 모듈도 사용 가능</font></h3>
+                  <h3 align="center"><font face="Trebuchet MS" size="3">(4)
+                      관련 nltk <a
+                        href="http://www.nltk.org/book/ch02.html">chapter
+                        2</a>, <a
+                        href="http://www.nltk.org/book/ch03.html">chapter3</a>
+                      참조 &nbsp; </font></h3>
+                  <h3 align="center"><font size="3"></font></h3>
+                  <p><font face="Trebuchet MS" size="3">(Filename:
+                      YourStudentIDnumber_hw1.py)</font><font size="3"></font></p>
+                  <p><font face="Trebuchet MS" size="3" color="#cc0033">Due.
+                      March. 21, 13:59:59' p.m. through ETL</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td class="s2" width="17"><font face="Trebuchet MS"
+                    size="3">3</font></td>
+                <td class="s3" width="72"><font face="Trebuchet MS"
+                    size="3">3/19-3/24</font></td>
+                <td class="s4" width="289">
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><font face="Trebuchet MS" size="3">Introduction
+
+
+                      to&nbsp;a Neural Network</font></p>
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><span style="line-height:100%;
+                          margin-top:0; margin-bottom:0;"><a
+                            href="DL02-perceptron.pdf">Perceptron</a></span></font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><span style="line-height:100%;
+                          margin-top:0; margin-bottom:0;"><a
+                            href="DL03-nueralNetwork.pdf">Neural
+                            Network: Activation Function(sigmoid, step,
+                            tanh, ReLU), Softmax</a></span></font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><span style="line-height:100%;
+                          margin-top:0; margin-bottom:0;"><a
+                            href="DL04-Neural%20NetworkLearning.pdf">Neural
+
+
+                            Network Training: Loss Function, Gradient
+                            Descent Method</a></span></font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><span style="line-height:100%;
+                          margin-top:0; margin-bottom:0;"><a
+                            href="DL05-Backpropagation.pdf">Backward
+                            Propagation of Errors</a></span></font></li>
+                  </ul>
+                </td>
+                <td class="s4" width="248">
+                  <p><a href="https://hunkim.github.io/ml/"><font
+                        face="Trebuchet MS" size="3">모두를 위한
+                        머신러닝/딥러닝(홍콩과기대 김성훈 교수)</font></a><font
+                      face="Trebuchet MS"></font></p>
+                  <li><font face="Trebuchet MS" size="3">Linear
+                      Regression 의 개념 </font><a
+                      href="https://www.youtube.com/watch?v=Hax03rCn3UI"><font
+                        face="Trebuchet MS" size="3">비디오 </font></a><font
+                      face="Trebuchet MS"></font></li>
+                  <li><a href="https://hunkim.github.io/ml/lec2.pdf"><font
+                        face="Trebuchet MS" size="3">강의 슬라이드</font></a><font
+                      face="Trebuchet MS"></font></li>
+                  <li><font face="Trebuchet MS" size="3">Linear
+                      Regression cost함수 최소화 </font><a
+                      href="https://www.youtube.com/watch?v=TxIVr-nk1so"><font
+                        face="Trebuchet MS" size="3">비디오 </font></a><font
+                      face="Trebuchet MS"></font></li>
+                  <li><a href="https://hunkim.github.io/ml/lec3.pdf"><font
+                        face="Trebuchet MS" size="3">강의 슬라이드</font></a><font
+                      face="Trebuchet MS"></font></li>
+                  <li><font face="Trebuchet MS" size="3">여러개의
+                      입력(feature)의 Linear Regression </font><a
+                      href="https://youtu.be/kPxpJY6fRkY"><font
+                        face="Trebuchet MS" size="3">비디오 </font></a><font
+                      face="Trebuchet MS"></font></li>
+                  <li><a
+href="https://docs.google.com/presentation/d/1bHVxjCVvRKjCgtf6OMmxe35nR65LnsERoWSefWscv2I/"><font
+                        face="Trebuchet MS" size="3">강의 슬라이드 </font></a><font
+                      face="Trebuchet MS"></font></li>
+                  <li><font face="Trebuchet MS" size="3">Logistic
+                      (Regression) Classification</font><a
+                      href="https://hunkim.github.io/ml/lec5.pdf"><font
+                        face="Trebuchet MS" size="3">강의 슬라이드</font></a><font
+                      face="Trebuchet MS"></font></li>
+                  <ul>
+                    <li><font face="Trebuchet MS" size="3">Hypothesis 함수
+                        소개 </font><a
+                        href="https://youtu.be/PIjno6paszY"><font
+                          face="Trebuchet MS" size="3">비디오 </font></a><font
+                        face="Trebuchet MS"></font></li>
+                    <li><font face="Trebuchet MS" size="3">Cost 함수 소개 </font><a
+                        href="https://youtu.be/6vzchGYEJBc"><font
+                          face="Trebuchet MS" size="3">비디오 </font></a></li>
+                  </ul>
+                  <ul>
+                    <li><a
+href="https://machinelearningmastery.com/introduction-matrices-machine-learning/"><font
+                          face="Trebuchet MS" size="3">Matrices and
+                          Matrix Arithmetic for machine Learning</font></a><font
+                        face="Trebuchet MS" size="3"> </font><font
+                        size="3"></font></li>
+                    <li><font
+                          face="Trebuchet MS" size="3"><a
+                        href="https://docs.scipy.org/doc/numpy/user/quickstart.html">numpy tutorial</a></font></li>
+                  </ul>
+                </td>
+                <td class="s4" width="380"> &nbsp; </td>
+              </tr>
+              <tr>
+                <td class="s2" width="17" height="256"><font
+                    face="Trebuchet MS" size="3">4</font></td>
+                <td class="s3" width="72" height="256"><font
+                    face="Trebuchet MS" size="3">3/23-3/31</font></td>
+                <td class="s4" width="289" height="256">
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><font face="Trebuchet MS" size="3">Introduction
+
+
+                      to&nbsp;a Neural Network</font></p>
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><span style="line-height:100%;
+                          margin-top:0; margin-bottom:0;"><a
+                            href="DL_Linear%20Regression%20Analysis.pdf">Logistic
+
+
+                            Regression</a></span></font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><span style="line-height:100%;
+                          margin-top:0; margin-bottom:0;"><a
+                            href="DL02-perceptron.pdf">Perceptron</a></span></font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><span style="line-height:100%;
+                          margin-top:0; margin-bottom:0;"><a
+                            href="DL03-nueralNetwork.pdf">Neural
+                            Network: Activation Function(sigmoid, step,
+                            tanh, ReLU), Softmax</a></span></font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><span style="line-height:100%;
+                          margin-top:0; margin-bottom:0;"><a
+                            href="DL04-Neural%20NetworkLearning.pdf">Neural
+
+
+                            Network Training: Loss Function, Gradient
+                            Descent Method</a></span></font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><span style="line-height:100%;
+                          margin-top:0; margin-bottom:0;"><a
+                            href="DL05-Backpropagation.pdf">Backward
+                            Propagation of Errors</a></span></font></li>
+                  </ul>
+                </td>
+                <td class="s4" width="248" height="256">
+                  <p><a href="https://hunkim.github.io/ml/"><font
+                        face="Trebuchet MS" size="3">모두를 위한
+                        머신러닝/딥러닝(홍콩과기대 김성훈 교수)</font></a></p>
+                  <li><font face="Trebuchet MS" size="3">Linear
+                      Regression 의 개념 </font><a
+                      href="https://www.youtube.com/watch?v=Hax03rCn3UI"><font
+                        face="Trebuchet MS" size="3">비디오 </font></a></li>
+                  <li><a href="https://hunkim.github.io/ml/lec2.pdf"><font
+                        face="Trebuchet MS" size="3">강의 슬라이드</font></a></li>
+                  <li><font face="Trebuchet MS" size="3">Linear
+                      Regression cost함수 최소화 </font><a
+                      href="https://www.youtube.com/watch?v=TxIVr-nk1so"><font
+                        face="Trebuchet MS" size="3">비디오 </font></a></li>
+                  <li><a href="https://hunkim.github.io/ml/lec3.pdf"><font
+                        face="Trebuchet MS" size="3">강의 슬라이드</font></a></li>
+                  <li><font face="Trebuchet MS" size="3">여러개의
+                      입력(feature)의 Linear Regression </font><a
+                      href="https://youtu.be/kPxpJY6fRkY"><font
+                        face="Trebuchet MS" size="3">비디오 </font></a></li>
+                  <li><a
+href="https://docs.google.com/presentation/d/1bHVxjCVvRKjCgtf6OMmxe35nR65LnsERoWSefWscv2I/"><font
+                        face="Trebuchet MS" size="3">강의 슬라이드 </font></a></li>
+                  <li><font face="Trebuchet MS" size="3">Logistic
+                      (Regression) Classification</font><a
+                      href="https://hunkim.github.io/ml/lec5.pdf"><font
+                        face="Trebuchet MS" size="3">강의 슬라이드</font></a></li>
+                  <ul>
+                    <li><font face="Trebuchet MS" size="3">Hypothesis 함수
+                        소개 </font><a
+                        href="https://youtu.be/PIjno6paszY"><font
+                          face="Trebuchet MS" size="3">비디오 </font></a></li>
+                    <li><font face="Trebuchet MS" size="3">Cost 함수 소개 </font><a
+                        href="https://youtu.be/6vzchGYEJBc"><font
+                          face="Trebuchet MS" size="3">비디오 </font></a></li>
+                  </ul>
+                  <ul>
+                    <li><a
+href="https://machinelearningmastery.com/introduction-matrices-machine-learning/"><font
+                          face="Trebuchet MS" size="3">Matrices and
+                          Matrix Arithmetic for machinef Learning</font></a><font
+                        face="Trebuchet MS" size="3"> </font><font
+                        size="3"></font></li>
+                    <li><a
+                        href="https://docs.scipy.org/doc/numpy-dev/user/quickstart.html"><font
+                          face="Trebuchet MS" size="3">numpy tutorial</font></a></li>
+                  </ul>
+                </td>
+                <td class="s4" width="380" height="256"> &nbsp; </td>
+              </tr>
+              <tr>
+                <td class="s2" width="17" height="132"><font
+                    face="Trebuchet MS" size="3">5</font></td>
+                <td class="s3" width="72" height="132"><font
+                    face="Trebuchet MS" size="3">4/2-4/7</font></td>
+                <td class="s4" width="289" height="132">
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><a
+                      href="DL06-NNLearningConcepts.pdf"><font
+                        face="Trebuchet MS" size="3">Advanced Neural
+                        Network Model</font></a></p>
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+                        href="DL06-NNLearningConcepts.pdf"><font
+                          face="Trebuchet MS" size="3">Parameter
+                          Optimization</font></a></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+                        href="DL06-NNLearningConcepts.pdf"><font
+                          face="Trebuchet MS" size="3">Weight Decay</font></a></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+                        href="DL06-NNLearningConcepts.pdf"><font
+                          face="Trebuchet MS" size="3">Batch
+                          Normalization</font></a></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><a href="DL06-NNLearningConcepts.pdf">DropOut</a></font></li>
+                  </ul>
+                </td>
+                <td class="s4" width="248" height="132"> <font
+                    face="Trebuchet MS" size="3">딥러닝 개념잡기</font><font
+                    face="Trebuchet MS"> </font>
+                  <ul>
+                    <li><a
+                        href="https://tykimos.github.io/2017/03/25/Dataset_and_Fit_Talk/"><font
+                          face="Trebuchet MS" size="3">데이터셋 이야기</font></a><font
+                        face="Trebuchet MS"></font></li>
+                    <li><a
+                        href="https://tykimos.github.io/2017/03/25/Fit_Talk/"><font
+                          face="Trebuchet MS" size="3">학습과정 이야기</font></a><font
+                        face="Trebuchet MS"></font></li>
+                    <li><a
+                        href="https://tykimos.github.io/2017/07/09/Training_Monitoring/"><font
+                          face="Trebuchet MS" size="3">학습과정 살펴보기</font></a><font
+                        face="Trebuchet MS"></font></li>
+                    <li><a
+                        href="https://tykimos.github.io/2017/07/09/Early_Stopping/"><font
+                          face="Trebuchet MS" size="3">학습 조기종료 시키기</font></a><font
+                        face="Trebuchet MS"></font></li>
+                    <li><a
+                        href="https://tykimos.github.io/2017/05/22/Evaluation_Talk/"><font
+                          face="Trebuchet MS" size="3">평가 이야기</font></a><font
+                        face="Trebuchet MS"></font></li>
+                    <li><a
+                        href="https://tykimos.github.io/2017/06/10/Model_Save_Load/"><font
+                          face="Trebuchet MS" size="3">학습 모델
+                          보기/저장하기/불러오기</font></a></li>
+                  </ul>
+                </td>
+                <td class="s4" width="380" height="132">
+                  <p> &nbsp;<font face="Trebuchet MS" size="3"
+                      color="red">Assignment 2</font><font
+                      face="Trebuchet MS" size="3">: <a
+                        href="Assignment2SimpleNN.html">Simple Vanila
+                        Forward Neural Network 모델 구현 </a>(Due 9th of
+                      April) : </font><font face="Trebuchet MS"
+                      size="3" color="red">SimpleNetData has been
+                      changed!. Please download it again and check your
+                      program!</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td class="s2" width="17" height="247"><font
+                    face="Trebuchet MS" size="3">6</font></td>
+                <td class="s3" width="72" height="247"><font
+                    face="Trebuchet MS" size="3">4/9-4/14</font></td>
+                <td class="s6" width="289" height="247">
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><a
+                      href="DL06-NNLearningConcepts.pdf"><font
+                        face="Trebuchet MS" size="3">Advanced Neural
+                        Network Model</font></a></p>
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+                        href="DL06-NNLearningConcepts.pdf"><font
+                          face="Trebuchet MS" size="3">Parameter
+                          Optimization</font></a></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+                        href="DL06-NNLearningConcepts.pdf"><font
+                          face="Trebuchet MS" size="3">Weight Decay</font></a></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+                        href="DL06-NNLearningConcepts.pdf"><font
+                          face="Trebuchet MS" size="3">Batch
+                          Normalization</font></a></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><a href="DL06-NNLearningConcepts.pdf">DropOut</a></font></li>
+                  </ul>
+                </td>
+                <td class="s4" width="248" height="247">
+                  <ul>
+                    <li><font face="Trebuchet MS" size="3">Neural
+                        Network 2: ReLU and 초기값 정하기 (2006/2007
+                        breakthrough)</font><a
+                        href="https://hunkim.github.io/ml/lec10.pdf"><font
+                          face="Trebuchet MS" size="3">강의 슬라이드 </font></a><a
+href="https://docs.google.com/presentation/d/1fuOqBNMLgUskKUzpEEDVPXrsByEGBpXW-zpHxyl-haY"><font
+                          face="Trebuchet MS" size="3">&nbsp;실습 슬라이드 </font></a></li>
+                    <ul>
+                      <li><font face="Trebuchet MS" size="3">XSigmoid 보다
+                          ReLU가 더 좋아</font><a
+                          href="https://youtu.be/cKtg_fpw88c"><font
+                            face="Trebuchet MS" size="3">비디오 </font></a><font
+                          face="Trebuchet MS"></font></li>
+                      <li><font face="Trebuchet MS" size="3">Weight 초기화
+                          잘해보자</font><a
+                          href="https://youtu.be/4rC0sWrp3Uw"><font
+                            face="Trebuchet MS" size="3">비디오 </font></a><font
+                          face="Trebuchet MS"></font></li>
+                      <li><font face="Trebuchet MS" size="3">Dropout 과
+                          앙상블</font><a
+                          href="https://youtu.be/wTxMsp22llc"><font
+                            face="Trebuchet MS" size="3">비디오 </font></a><font
+                          face="Trebuchet MS"></font></li>
+                      <li> <font face="Trebuchet MS" size="3">레고처럼 넷트웍
+                          모듈을 마음껏 쌓아 보자</font><a
+                          href="https://youtu.be/YHsbHjTBx9Q"><font
+                            face="Trebuchet MS" size="3">비디오</font><font
+                            face="Trebuchet MS"> </font></a></li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="s4" width="380" height="247">
+                  <p>&nbsp;<font size="3"> </font><font face="Trebuchet
+                      MS" size="3" color="red">Assignment </font><font
+                      face="Trebuchet MS" size="3">3: </font><a
+                      href="Assignment3SimpleNNwithGradient.html"><font
+                        face="Trebuchet MS" size="3">Simple Forward
+                        Neural Network</font></a><a
+                      href="Assignment2SimpleNN.html"><font
+                        face="Trebuchet MS" size="3"> &nbsp;&nbsp;</font></a><font
+                      face="Trebuchet MS" size="3">&nbsp;Upgrade 버전 (Due
+                      16th of April)</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td class="s2" width="17" height="202"><font
+                    face="Trebuchet MS" size="3">7</font></td>
+                <td class="s3" width="72" height="202"><font
+                    face="Trebuchet MS" size="3">4/16-4/2</font></td>
+                <td class="s4" width="289" height="202">
+                  <p style="line-height: 100%; margin-top: 0px;
+                    margin-bottom: 0px;"><a
+                      href="DL07-Convolutional%20Neural%20Network.pdf"><font
+                        face="Trebuchet MS" size="3">Convolutional
+                        Neural Network</font></a><font face="Trebuchet
+                      MS" size="3"> </font></p>
+                  <p style="line-height: 100%; margin-top: 0px;
+                    margin-bottom: 0px;"><font size="3">&nbsp;</font></p>
+                  <p style="line-height: 100%; margin-top: 0px;
+                    margin-bottom: 0px;"><a
+                      href="https://www.youtube.com/watch?v=-SHPG_KMUkQ&amp;feature=youtu.be"><font
+                        face="Trebuchet MS" size="3">Reccurent Neural
+                        Network</font></a></p>
+                </td>
+                <td class="s4" width="248" height="202">
+                  <p><font face="Trebuchet MS" size="3"><a
+href="https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html">ConvNetJS
+                        CIFAR-10 demo</a></font></p>
+                </td>
+                <td class="s4" width="380" height="202">
+                  <p><br>
+                    <font size="3"> </font><font face="Trebuchet MS"
+                      size="3" color="red">Assignment </font><font
+                      face="Trebuchet MS" size="3">4: <a
+                        href="Assignment4IMDBNN.htm">Simple Neural Net을
+                        이용한 Movie Reivew Sentiment Analysis</a>&nbsp;(Due
+                      23rd of April)</font></p>
+                </td>
+              </tr>
+              <tr>
+                <td class="s2" width="17" height="247"><font
+                    face="Trebuchet MS" size="3">8</font></td>
+                <td class="s3" width="72" height="247"><font
+                    face="Trebuchet MS" size="3">4/23-4/28</font></td>
+                <td class="s4" width="289" height="247">
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><font face="Trebuchet MS" size="3"
+                      color="red">MidTerm Test</font></p>
+                  <p style="line-height: 100%; margin-top: 0px;
+                    margin-bottom: 0px;"><font face="Trebuchet MS"
+                      size="3"><a
+href="http://ling.snu.ac.kr/class/AI_Agent/lecture/06-1-VectorSemantics.pdf">Vector
+
+
+                        Semantics</a> from SLP 3rd Edition Draft</font></p>
+                  <p style="line-height: 100%; margin-top: 0px;
+                    margin-bottom: 0px;"><font face="Trebuchet MS"
+                      size="3"><a
+href="http://ling.snu.ac.kr/class/AI_Agent/lecture/06-2-SemanticsWithDenseVectors.pdf">Semantics
+
+
+                        with Dense Vectors</a> from SLP 3rd Edition
+                      Draft </font></p>
+                  <p style="line-height: 100%; margin-top: 0px;
+                    margin-bottom: 0px;"><a
+href="http://ling.snu.ac.kr/class/AI_Agent/lecture/06-3-ComputingWithWordSenses.pdf"><font
+                        face="Trebuchet MS" size="3">Computing with Word
+                        Senses</font><font face="Trebuchet MS" size="3">
+                      </font></a><font face="Trebuchet MS" size="3">from
+                      SLP 3rd Edition Draft</font></p>
+                  <p style="line-height: 100%; margin-top: 0px;
+                    margin-bottom: 0px;"><font face="Trebuchet MS"
+                      size="3"><a
+href="http://ling.snu.ac.kr/class/AI_Agent/lecture/07-1-WordRepresentationinVectorSpace.pdf">Efficient
+
+
+                        Estimation of Word Representations in Vector
+                        Space</a> paper by Mikolov et al.(2013)<br>
+                      --------------------------------------------<br>
+                      <a
+href="http://ling.snu.ac.kr/class/AI_Agent/lecture/07-2-vectorsemantics.pdf">Vector
+
+
+                        Semantics</a></font><a
+href="http://ling.snu.ac.kr/Volumes/G-DRIVE%20with%20Thunderbolt/Onedrive/cl_course/AI_Agent/lecture/vectorsemantics.pdf"><font
+                        face="Trebuchet MS" size="3"> </font></a><font
+                      face="Trebuchet MS" size="3">by Jurafsky<br>
+                      <a
+                        href="http://ling.snu.ac.kr/class/AI_Agent/lecture/07-2-0-SVDandLSA.pdf">SVDandLSA</a><br>
+                      <a
+href="http://ling.snu.ac.kr/class/AI_Agent/lecture/07-2-1-Word2VecSupple1.pdf">Word2VecGloveFastText</a><br>
+                    </font></p>
+                  <p style="line-height: 100%; margin-top: 0px;
+                    margin-bottom: 0px;"><font face="Trebuchet MS"
+                      size="3"><a
+href="http://ling.snu.ac.kr/class/AI_Agent/lecture/07-3-EfficientEstimationofWordRepresentationinVectorSpace.pdf">Efficient
+
+
+                        Estimation of Word Representations in Vecctor</a>
+                      handout</font></p>
+                </td>
+                <td class="s4" width="248" height="247">
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"> </font><br>
+                    </li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+href="https://machinelearningmastery.com/develop-word-embeddings-python-gensim/"><font
+                          face="Trebuchet MS" size="3">How to Develop
+                          Word Embeddings with Gensim</font></a></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+                        href="https://radimrehurek.com/gensim/models/word2vec.html"><font
+                          face="Trebuchet MS" size="3">Gensim
+                          model.word2Vec, &nbsp;&nbsp;mode</font></a><font
+                        face="Trebuchet MS" size="3">l.</font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+                        href="https://radimrehurek.com/gensim/models/fasttext.html"><font
+                          face="Trebuchet MS" size="3">Gensim fasttext </font></a></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+                        href="https://radimrehurek.com/gensim/apiref.html"><font
+                          face="Trebuchet MS" size="3">All
+                          Gensim&nbsp;API References</font></a></li>
+                  </ul>
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font size="3" face="Trebuchet MS"><a
+href="glove.6B.300d.txt.zip">Glove
+                        Pretrained glove.6B.300d.txt</a></font><font size="3" face="Trebuchet MS"></font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font size="3" face="Trebuchet MS"><a
+href="corpusAll.txt.gz">Korean
+                          News data</a></font><a
+href="/Users/deeplearning/OneDrive/cl_course/cl_under1801/corpusAll.txt.gz"><font size="3" face="Trebuchet MS">&nbsp;</font></a><font size="3" face="Trebuchet MS"></font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font size="3" face="Trebuchet MS"><a
+href="modelRaw.zip">Pretrained(word2vec)
+                        Korean News data</a></font><font size="3" face="Trebuchet MS"></font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><a
+href="word2VecTest.py"><font size="3" face="Trebuchet MS">word2vecTest
+                        file</font></a><a
+href="/Users/deeplearning/OneDrive/cl_course/cl_under1801/word2VecTest.py"><font size="3" face="Trebuchet MS">&nbsp;</font></a><font size="3" face="Trebuchet MS"> </font><br>
+                    </li>
+                    <ul>
+                      <p><font face="Trebuchet MS">&nbsp;</font></p>
+                    </ul>
+                  </ul>
+                  <p>&nbsp;</p>
+                </td>
+                <td class="s4" width="380" height="247"><br>
+                </td>
+              </tr>
+                <tr>
+                <td class="s2" width="17" height="80"><font
+                    face="Trebuchet MS" size="3">9</font></td>
+                <td class="s3" width="72" height="80"><font
+                    face="Trebuchet MS" size="3">4/30-5/5</font></td>
+                    <td class="s4" width="289" height="80">
+                        <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><font face="Trebuchet MS" size="3">Implementing
+
+
+                      a Neural Network Using Keras </font></p>
+                        <ul>
+                            <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3">Introduction to Keras</font></li>
+                            <li><a
+                        href="https://tykimos.github.io/2017/01/27/MLP_Layer_Talk/"><font
+                          face="Trebuchet MS" size="3">다층 퍼셉트론 레이어 이야기</font></a></li>
+                            <li><a
+                        href="https://tykimos.github.io/2017/02/04/MLP_Getting_Started/"><font
+                          face="Trebuchet MS" size="3">다층 퍼셉트론 모델 만들어보기</font></a></li>
+                        </ul>
+                    </td>
+                    <td class="s4" width="248" height="80">
+                        <ul>
+                            <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><a href="https://keras.io">Keras Documentation</a></font><br>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><a
+                        href="https://tykimos.github.io/2017/01/27/Keras_Talk/"><font
+                          face="Trebuchet MS" size="3">케라스 이야기</font></a><font
+                        face="Trebuchet MS"></font></li>
+                            <li><a
+                        href="https://tykimos.github.io/2017/08/07/Keras_Install_on_Mac/"><font
+                          face="Trebuchet MS" size="3">맥에서 케라스 설치하기</font></a><font
+                        face="Trebuchet MS"></font></li>
+                            <li><a
+                        href="https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/"><font
+                          face="Trebuchet MS" size="3">윈도우에서 케라스 설치하기</font></a><font
+                        size="3"></font></li>
+                        </ul>
+                    </td>
+                <td class="s4" width="380" height="80"> &nbsp; </td>
+                </tr>
+                <tr>
+                <td class="s2" width="17" height="105"><font
+                    face="Trebuchet MS" size="3">10</font></td>
+                <td class="s3" width="72" height="105"><font
+                    face="Trebuchet MS" size="3">5/7-5/12</font></td>
+                <td class="s4" width="289" height="105">
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><a href="LSTMfromMLMatery.pdf">Long Short-Term Memory</a></font></li>
+                            <ul>
+                                <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">What are LSTMs</font></li>
+                                <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">How to Train LSTMs</font></li>
+                                <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">How to Prepare Data for LSTMs</font></li>
+                                <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">How to Develop LSTMs in Keras</font></li>
+                                <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">Models for Sequence Prediction</font></li>
+                                <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3"><a href="EncoderDecoderLSTM.pdf">How to Develop Encoder-Decoder LSTMs</a></font></li>
+                                <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3"><a href="BidirectionalLSTM.pdf">How to Develop Bidirectional LSTMs</a></font></li>
+                                <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3"><a href="DL-LSTMOnechar.pdf">Stateful LSTM Recurrent Neural Network</a></font></li>
+                            </ul>
+                  </ul>
+                </td>
+                    <td class="s4" width="248" height="105">
+                        <ul>
+                            <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><a href="DL_LSTM01.pdf">Long short-Term Memory</a></font></li>
+                        </ul>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td class="s4" width="380" height="105"> 
+                        <p>&nbsp;<font size="3"> </font><font size="3" face="Trebuchet MS" color="red">Assignment 5: </font><font size="3" face="Trebuchet MS">Assignment 3에서 사용한 </font><A href="http://ling.snu.ac.kr/class/cl_under1801/SimpleNetData2.csv"><font size="3" face="Trebuchet MS">SimpleNetData2.csv</font></A><font size="3" face="Trebuchet MS"> 자료를 바탕으로 keras를 활용한 multi layer net으로 구현하여라. ‘</font><a href="pima-indians-diabetes.csv"><font size="3" face="Trebuchet MS">피마족 인디언 당뇨병 발병 데이터셋</font></a><font size="3" face="Trebuchet MS">’ 의 예에서 처럼 training, test, evaluation 모듈을 다 구현하라. &nbsp;‘</font><a href="https://tykimos.github.io/2017/02/04/MLP_Getting_Started/"><font size="3" face="Trebuchet MS">피마족 인디언 당뇨병 발병 예'</font></a><font size="3" face="Trebuchet MS">에서 처럼 Dense 층위는 세 개를 사용하나 성능을 높이기 위해 다양한 패러미터 적용은 무방.</font></p>
+                        <p><font size="3" face="Trebuchet MS">Due: May, 16th, 13:59:59 p.m.</font></p>
+                    </td>
+                </tr>
+              <tr>
+                <td class="s2" width="17" height="102"><font
+                    face="Trebuchet MS" size="3">11</font></td>
+                <td class="s3" width="72" height="102"><font
+                    face="Trebuchet MS" size="3">5/14-5/19</font></td>
+                <td class="s4" width="289" height="102">
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3">Text Classification I</font></li>
+                    <ul>
+                      <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">I<a href="DL-SentimentEmbeddingCNN.pdf">MDB Sentiment Analysis with
+                          Embedding in LSTM, CNN</a></font></li>
+                      <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3"><a href="https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/">Reuter Data Classification
+                          with/without &nbsp;EMbedding in MLP, LSTM, and
+                          CNN</a></font></li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="s4" width="248" height="102">
+                  <p><font face="Trebuchet MS" size="3">&nbsp;</font></p>
+                </td>
+                <td class="s4" width="380" height="102"> &nbsp; </td>
+              </tr>
+                <tr>
+                <td class="s2" width="17" height="105"><font
+                    face="Trebuchet MS" size="3">12</font></td>
+                <td class="s3" width="72" height="105"><font
+                    face="Trebuchet MS" size="3">5/21-5/26</font></td>
+                <td class="s4" width="289" height="105">
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><a href="DL-LanguageModeling.pdf">Language Modeling</a></font></li>
+                    <ul>
+                      <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">Neural Langugae Modeling</font></li>
+                      <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">How to Develop Character-Based Neural
+                          Language Model </font></li>
+                      <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">How to Develop a Word-based Nueral
+                          Language Model </font></li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="s4" width="248" height="105">
+                  <p><font face="Trebuchet MS" size="3">&nbsp;</font></p>
+                </td>
+                    <td class="s4" width="380" height="105">
+                        <p><font size="3" face="Trebuchet MS" color="red">Assignment 6:</font><font size="3" face="Trebuchet MS"> LSTM을 사용한 악보 prediction 모형 만들기. <a href="https://tykimos.github.io/2017/04/09/RNN_Layer_Talk/">순환신경망만들기 사이트</a>를 참조로 하여 &quot;<a href="namuya.gif">겨울나무</a>&quot; 악보를 학습하여 예측하는 모델을 만들어라. 예제에서 처럼, MLP, LSTM, LSTM stateful, LSTM with two features를 다 구현하도록 하라.</font></p>
+                        <p><font size="3" face="Trebuchet MS">Due May, 28th, 13:59:59 p.m</font></p>
+                    </td>
+                </tr>
+                <tr>
+                <td class="s2" width="17" height="105"><font
+                    face="Trebuchet MS" size="3">13</font></td>
+                <td class="s3" width="72" height="105"><font
+                    face="Trebuchet MS" size="3">5/28-6/2</font></td>
+                    <td class="s4" width="289" height="105">
+                        <ul>
+                            <ul>
+                                <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><a href="DL-LanguageModeling.pdf">Language Modeling</a></font></li>
+                                <ul>
+                                    <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">Neural Langugae Modeling</font></li>
+                                    <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">How to Develop Character-Based Neural
+Language Model </font></li>
+                                    <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">How to Develop a Word-based Nueral
+Language Model</font></li>
+                                </ul>
+                            </ul>
+                        </ul>
+                    </td>
+                <td class="s4" width="248" height="105">
+                  <p><font face="Trebuchet MS" size="3">&nbsp;</font></p>
+                </td>
+                    <td class="s4" width="380" height="105"> 
+                        <p>&nbsp; <font size="3" face="Trebuchet MS" color="red">Final&nbsp;Project</font><font size="3" face="Trebuchet MS"> </font><font size="3" face="Trebuchet MS" color="red">: </font><font size="3" face="Trebuchet MS" color="black"><a href="FinalProject.htm">한국어 뉴스 기사분류</a></font></p>
+                    </td>
+                </tr>
+              <tr>
+                <td class="s2" width="17" height="79"><font
+                    face="Trebuchet MS" size="3">14</font></td>
+                <td class="s3" width="72" height="79"><font
+                    face="Trebuchet MS" size="3">6/4-6/9</font></td>
+                <td class="s4" width="289" height="79">
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3"><a href="DL-LSTMTextGenAlice.pdf">Language Modeling for Text Generation </a></font></li>
+                    <ul>
+                      <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><a href="DL-TextGenPlato.pdf"><font face="Trebuchet MS"
+                          size="3">The Repurblic by Plato </font></a></li>
+                      <li style="line-height:100%; margin-top:0;
+                        margin-bottom:0;"><font face="Trebuchet MS"
+                          size="3">Character/Glypheme/Word-based
+                          Generation Model </font></li>
+                    </ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3">Final Projects</font></li>
+                  </ul>
+                </td>
+                <td class="s4" width="248" height="79">
+                  <p>&nbsp;</p>
+                </td>
+                <td class="s4" width="380" height="79"> &nbsp; </td>
+              </tr>
+              <tr>
+                <td class="s2" width="17"><font face="Trebuchet MS"
+                    size="3">15</font></td>
+                <td class="s3" width="72"><font face="Trebuchet MS"
+                    size="3">6/11-6/16</font></td>
+                <td class="s6" width="289">
+                  <ul>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3">Final Projects Presentations </font></li>
+                    <li style="line-height:100%; margin-top:0;
+                      margin-bottom:0;"><font face="Trebuchet MS"
+                        size="3">Final Test</font></li>
+                  </ul>
+                </td>
+                <td class="s4" width="248"><font face="Trebuchet MS"
+                    size="3">&nbsp;</font></td>
+                <td class="s4" width="380"><font face="Trebuchet MS"
+                    size="3">&nbsp;</font></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <h2><font face="Trebuchet MS">Resources</font><font
+          face="Trebuchet MS" size="3"></font></h2>
+      <li><a
+          href="https://github.com/WegraLee/deep-learning-from-scratch"><font
+            face="Trebuchet MS" size="3">Deep Learning From Scratch
+            source codes</font></a></li>
+      <li><a href="https://github.com/nlintz/TensorFlow-Tutorials"><font
+            face="Trebuchet MS" size="3">TensorFlow Tutorials (Simple
+            Examples)</font></a><font face="Trebuchet MS" size="3"></font></li>
+      <li><a href="https://github.com/aymericdamien/TensorFlow-Examples"><font
+            face="Trebuchet MS" size="3">TensorFlow Examples</font></a><font
+          face="Trebuchet MS" size="3"></font></li>
+      <li><a href="https://github.com/Newmu/Theano-Tutorials"><font
+            face="Trebuchet MS" size="3">Theano Tutorials</font></a></li>
+    </div>
+  </body>
+</html>
